@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header{
+    position:sticky;
+    top: 0;
+    background: white;
+    height:66px;
+    margin: 0;
+    padding: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .rightBox{
+    display: flex;
+    margin: 12px;
+  }
+ 
+  
+  .left img{
+    width: 32px;
+    height: 23px;
+  }
+  .container{
+    padding: 0 10vw;
+    margin: auto;
+    
+    }
+    .containerHeader{
+      padding: 0 2vw;
+    }
+    nav{
+      font-size: 12px;
+      padding-top: 14px;
+    }
+  nav ul li{
+    list-style: none;
+    padding: 0 12px;
+  }
+  .section1{
+    
+    background: #f2f2f2;
+    
+  
+  }
+  .search{
+    width: 35vw;
+    padding: 7px 22px;
+    border: 0.5px solid grey;
+    background: #f7f8fd;
+    border-radius: 5px;
+  }
+  .homeImg{
+    width: 80vw;
+    margin: 0px 0px;
+  }
+  .itemImg{
+    width: 10vw;
+    margin: 0px 0px;
+    left:0px;
+    
+
+  }
+  .heading{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 25px 30px;
+    margin: 12px 0px;
+    font-family: 'Source Code Pro', monospace;
+  }
+  .itemImg2{
+    width: 12vw;  
+  }
+  .itemImg3{
+    
+    width: 13.8vw;
+  }
+  sup {
+    top: -.4rem;
+    font-size: 60%;
+    color: red;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+    text-transform: uppercase; 
+}
+footer{
+  padding: 23px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}  
+.section2{
+    
+  background: #f2f2f2;
+}
+.tall{
+  min-height: 30vh;
+  
+}
+@media (max-width: 450px){
+  .search{
+    width: 72vw;
+  }
+}
+@media (max-width: 1550px){
+  nav ul li{
+    list-style: none;
+    padding: 0 4px;
+    font-size: 10px;
+  }
+ 
+  .containerHeader{
+    padding: 0 2vw;
+  }
+  header{
+  
+  height: 122px;
+}
+nav{
+  flex-direction: column;
+  align-items: center;
+}
+.right{
+  flex-direction: column;
+}
+.rightBox{
+  display: flex;
+  margin: 12px;
+}
+}
+
